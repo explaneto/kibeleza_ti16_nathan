@@ -364,5 +364,6 @@ namespace kibeleza_ti16_nathan
             dgv_reserva.Sort(dgv_reserva.Columns[1], ListSortDirection.Ascending);
             dgv_reserva.ClearSelection();
         }
+
     }
 }

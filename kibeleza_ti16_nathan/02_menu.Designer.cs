@@ -131,10 +131,13 @@
             // 
             // dgv_reserva
             // 
+            this.dgv_reserva.AllowUserToAddRows = false;
+            this.dgv_reserva.AllowUserToDeleteRows = false;
             this.dgv_reserva.BackgroundColor = System.Drawing.Color.LightSalmon;
             this.dgv_reserva.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_reserva.Location = new System.Drawing.Point(15, 103);
             this.dgv_reserva.Name = "dgv_reserva";
+            this.dgv_reserva.ReadOnly = true;
             this.dgv_reserva.Size = new System.Drawing.Size(654, 272);
             this.dgv_reserva.TabIndex = 19;
             this.dgv_reserva.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_reserva_CellClick);

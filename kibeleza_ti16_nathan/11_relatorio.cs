@@ -260,7 +260,7 @@ namespace kibeleza_ti16_nathan
             {
                 SaveFileDialog salvar = new SaveFileDialog();
                 salvar.Filter = "PDF (*.pdf)|*.pdf";
-                salvar.InitialDirectory = @"C:\xampp\htdocs\kubelezati16\admin";
+                salvar.InitialDirectory = @"C:\xampp\htdocs\kibelezati16\admin";
                 salvar.FileName = variaveis.relatorio + ".pdf";
                 bool fileError = false;
                 if (salvar.ShowDialog() == DialogResult.OK)

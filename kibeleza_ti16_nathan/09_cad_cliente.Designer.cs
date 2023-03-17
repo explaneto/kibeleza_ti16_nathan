@@ -486,9 +486,12 @@
             // 
             // dgv_fone_cliente
             // 
+            this.dgv_fone_cliente.AllowUserToAddRows = false;
+            this.dgv_fone_cliente.AllowUserToDeleteRows = false;
             this.dgv_fone_cliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_fone_cliente.Location = new System.Drawing.Point(448, 485);
             this.dgv_fone_cliente.Name = "dgv_fone_cliente";
+            this.dgv_fone_cliente.ReadOnly = true;
             this.dgv_fone_cliente.Size = new System.Drawing.Size(528, 150);
             this.dgv_fone_cliente.TabIndex = 131;
             // 

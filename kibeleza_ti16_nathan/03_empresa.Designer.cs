@@ -165,10 +165,13 @@
             // 
             // dgv_empresa
             // 
+            this.dgv_empresa.AllowUserToAddRows = false;
+            this.dgv_empresa.AllowUserToDeleteRows = false;
             this.dgv_empresa.BackgroundColor = System.Drawing.Color.DarkSalmon;
             this.dgv_empresa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_empresa.Location = new System.Drawing.Point(367, 233);
             this.dgv_empresa.Name = "dgv_empresa";
+            this.dgv_empresa.ReadOnly = true;
             this.dgv_empresa.Size = new System.Drawing.Size(928, 462);
             this.dgv_empresa.TabIndex = 28;
             // 

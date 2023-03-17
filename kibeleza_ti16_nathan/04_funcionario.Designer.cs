@@ -49,10 +49,13 @@
             // 
             // dgv_funcionario
             // 
+            this.dgv_funcionario.AllowUserToAddRows = false;
+            this.dgv_funcionario.AllowUserToDeleteRows = false;
             this.dgv_funcionario.BackgroundColor = System.Drawing.Color.DarkSalmon;
             this.dgv_funcionario.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_funcionario.Location = new System.Drawing.Point(351, 222);
             this.dgv_funcionario.Name = "dgv_funcionario";
+            this.dgv_funcionario.ReadOnly = true;
             this.dgv_funcionario.Size = new System.Drawing.Size(927, 462);
             this.dgv_funcionario.TabIndex = 32;
             // 

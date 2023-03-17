@@ -74,7 +74,7 @@
             // 
             this.btn_atualizar.BackColor = System.Drawing.Color.MistyRose;
             this.btn_atualizar.Image = global::kibeleza_ti16_nathan.Properties.Resources.atualizar;
-            this.btn_atualizar.Location = new System.Drawing.Point(1228, 139);
+            this.btn_atualizar.Location = new System.Drawing.Point(1251, 139);
             this.btn_atualizar.Name = "btn_atualizar";
             this.btn_atualizar.Size = new System.Drawing.Size(39, 40);
             this.btn_atualizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -239,10 +239,13 @@
             // 
             // dgv_relatorio
             // 
+            this.dgv_relatorio.AllowUserToAddRows = false;
+            this.dgv_relatorio.AllowUserToDeleteRows = false;
             this.dgv_relatorio.BackgroundColor = System.Drawing.Color.LightCoral;
             this.dgv_relatorio.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_relatorio.Location = new System.Drawing.Point(353, 372);
             this.dgv_relatorio.Name = "dgv_relatorio";
+            this.dgv_relatorio.ReadOnly = true;
             this.dgv_relatorio.Size = new System.Drawing.Size(860, 353);
             this.dgv_relatorio.TabIndex = 73;
             // 
@@ -250,7 +253,7 @@
             // 
             this.pct_fechar.BackColor = System.Drawing.Color.MistyRose;
             this.pct_fechar.Image = global::kibeleza_ti16_nathan.Properties.Resources.fechar;
-            this.pct_fechar.Location = new System.Drawing.Point(1279, 139);
+            this.pct_fechar.Location = new System.Drawing.Point(1251, 192);
             this.pct_fechar.Name = "pct_fechar";
             this.pct_fechar.Size = new System.Drawing.Size(39, 40);
             this.pct_fechar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

@@ -86,10 +86,13 @@
             // 
             // dgv_fone_empresa
             // 
+            this.dgv_fone_empresa.AllowUserToAddRows = false;
+            this.dgv_fone_empresa.AllowUserToDeleteRows = false;
             this.dgv_fone_empresa.BackgroundColor = System.Drawing.Color.DarkSalmon;
             this.dgv_fone_empresa.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_fone_empresa.Location = new System.Drawing.Point(514, 559);
             this.dgv_fone_empresa.Name = "dgv_fone_empresa";
+            this.dgv_fone_empresa.ReadOnly = true;
             this.dgv_fone_empresa.Size = new System.Drawing.Size(524, 192);
             this.dgv_fone_empresa.TabIndex = 84;
             // 
